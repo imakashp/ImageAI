@@ -23,8 +23,8 @@ const Header = () => {
         </div>
         <h1 className='text-4xl max-w-[300px] sm:text-7xl sm:max-w-[590px] mx-auto mt-10 text-center'>Turn text to <span className='text-blue-600'>image</span>, in seconds</h1>
         <p className='text-center max-w-xl mx-auto mt-5'>Unleash your creatvity with AI. Turn your imagination into visual art in seconds- just tyoe, and watch the magic happen</p>
-        <button onClick={onClickHandler} className='sm:text-lg text-white bg-black w-auto mt-8 px-12 py-1 flex items-center gap-2 rounded-full'>
-            Generate Image
+        <button onClick={onClickHandler} className='sm:text-lg text-white hover:scale-105 bg-black w-auto mt-8 px-12 py-1 flex items-center gap-2 rounded-full'>
+            Click Here to Generate Image
             <img className='h-6' src={assets.star_group} alt=""/>
         </button>
 
