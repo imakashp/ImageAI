@@ -10,7 +10,7 @@ export const Home = () => {
       <Header/>
       <Steps/>
       <Description/>
-      <Testimonials/>
+
       <GenerateButton/>
     </div>
   )
